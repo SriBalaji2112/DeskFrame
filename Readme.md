@@ -318,7 +318,7 @@ If you encounter any issues while using DeskFrame, or if you have suggestions fo
 
 ### Balaji Santhanam
 <a href="https://github.com/SriBalaji2112">
-<img src="https://avatars.githubusercontent.com/u/98526353?v=4" alt="Balaji Santhanam" width="100">
+<img src="https://media-tir3-1.cdn.whatsapp.net/v/t61.24694-24/425125954_1559228801533894_6335305622804197725_n.jpg" alt="Balaji Santhanam" style="border-radius: 50%;" width="100">
 </a>
 
 Balaji Santhanam is a software developer with expertise in Python and GUI development. He has contributed to the development of DeskFrame, focusing on widget implementation and user interface design.

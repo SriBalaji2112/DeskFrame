@@ -342,7 +342,7 @@ Balaji Santhanam is a software developer with expertise in Python and GUI develo
 
 Jayasri is a UI/UX designer with a passion for creating intuitive and visually appealing user interfaces. She has collaborated on the design and usability aspects of DeskFrame, ensuring a seamless user experience.
 
-If you have any questions or need assistance with DeskFrame, feel free to reach out to John or Jane via email at [sribalaji2112@gmail.com](mailto:sribalaji2112@gmail.com) or [srij6838@gmail.com](mailto:srij6838@gmail.com).
+If you have any questions or need assistance with DeskFrame, feel free to reach out to Balaji or Jayasri via email at [sribalaji2112@gmail.com](mailto:sribalaji2112@gmail.com) or [srij6838@gmail.com](mailto:srij6838@gmail.com).
 
 ## Thank You for Visiting 🙏
 

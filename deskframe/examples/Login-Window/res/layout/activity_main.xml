@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <ImageView
+        img="side-img.png"
+        layout_width="300px"
+        layout_height="480px">
+        <Pack
+            expand="True"
+            side="left"/>
+    </ImageView>
+    <Frame
+        layout_width="300px"
+        layout_height="480px"
+        foreground_color="#ffffff">
+        <PackPropagate
+            flag="0"/>
+        <Pack
+            expand="True"
+            side="right"/>
+        <TextView
+            text="Welcome Back!"
+            font_color="#601E88"
+            anchor="w"
+            justify="left"
+            font="Arial"
+            font_weight="bold"
+            font_size="24px">
+            <Pack
+                anchor="w"
+                padding_y="(50px, 5px)"
+                padding_x="(25px, 0px)"/>
+        </TextView>
+        <TextView
+            text="Sign in to your account"
+            font_color="#7E7E7E"
+            anchor="w"
+            justify="left"
+            font="Arial"
+            font_weight="Bold"
+            font_size="12px">
+            <Pack
+                anchor="w"
+                padding_x="(25px, 0px)"/>
+        </TextView>
+        <TextView
+            text=" Email:"
+            font_color="#601E88"
+            anchor="w"
+            justify="left"
+            font="Arial"
+            font_weight="Bold"
+            font_size="14px"
+            img="email-icon.png"
+            compound="left">
+            <Pack
+                anchor="w"
+                padding_x="(25px, 0px)"
+                padding_y="(38px, 0px)"/>
+        </TextView>
+        <Entry
+            id="email"
+            layout_width="225px"
+            foreground_color="#EEEEEE"
+            border_color="#601E88"
+            border_width="2px"
+            font_color="#000000">
+            <Pack
+                anchor="w"
+                padding_x="(25px, 0px)"
+                padding_y="(10px, 0px)"/>
+        </Entry>
+        <TextView
+            text=" Password:"
+            font_color="#601E88"
+            anchor="w"
+            justify="left"
+            font="Arial"
+            font_weight="Bold"
+            font_size="14px"
+            img="password-icon.png"
+            compound="left">
+            <Pack
+                anchor="w"
+                padding_x="(25px, 0px)"
+                padding_y="(21px, 0px)"/>
+        </TextView>
+        <Entry
+            id="pass"
+            layout_width="225px"
+            foreground_color="#EEEEEE"
+            border_color="#601E88"
+            border_width="2px"
+            type="password"
+            font_color="#000000">
+            <Pack
+                anchor="w"
+                padding_x="(25px, 0px)"
+                padding_y="(10px, 0px)"/>
+        </Entry>
+        <Button
+            id="login"
+            text="Login"
+            foreground_color="#601E88"
+            hover_color="#E44982"
+            font="Arial"
+            font_weight="Bold"
+            font_size="12px"
+            font_color="#ffffff"
+            layout_width="225px">
+            <Pack
+                anchor="w"
+                padding_y="(40px, 0px)"
+                padding_x="(25px, 0px)"/>
+        </Button>
+        <Button
+            id="google"
+            text="Google"
+            foreground_color="#EEEEEE"
+            hover_color="#EEEEEE"
+            font="Arial"
+            font_color="#601E88"
+            font_size="9px"
+            font_weight="Bold"
+            layout_width="225px"
+            img="google-icon.png">
+            <Pack
+                anchor="w"
+                padding_x="(25px, 0px)"
+                padding_y="(20px, 0px)"/>
+        </Button>
+    </Frame>
+</Layout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <ToolBar
+        layout_height="30px"
+        foreground_color="transparent">
+        <Button
+            text="Version Control"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"
+                padding_x="(20px, 0px)"/>
+        </Button>
+        <Button
+            text="Run"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="TODO"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="Problems"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="Python Packages"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="Python Console"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="Terminal"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+
+        <Button
+            text="Event Log"
+            position="right"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Pack
+            side="bottom"
+            fill="x"/>
+    </ToolBar>
+</Layout>

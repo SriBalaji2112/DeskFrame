@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <ToolBar
+        foreground_color="transparent">
+        <Button
+            text="%"
+            position="left"
+            foreground_color="transparent"
+            layout_width="30px"
+            layout_height="20px">
+            <Pack
+                side="left"
+                padding_x="(0px, 0px)"/>
+        </Button>
+        <TextView
+            text="Download pre-built shared indexes : Reduce the indexing time and CPU load with pre-built Python packages shared indexes // Configure.. (today 6.31 AM)"
+            position="left"
+            font_size="1px">
+            <Pack
+                side="left"
+                padding_x="0px"/>
+        </TextView>
+        <Button
+            text="103:23"
+            position="right"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="CRLF"
+            position="right"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="UTF-8"
+            position="right"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="4 spaces"
+            position="right"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="python 3.10"
+            position="right"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Button
+            text="#"
+            position="right"
+            foreground_color="transparent"
+            layout_width="30px">
+            <Pack
+                side="left"/>
+        </Button>
+        <Pack
+            side="bottom"
+            fill="x"/>
+    </ToolBar>
+</Layout>

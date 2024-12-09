@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+    <Application-Name>Quiz</Application-Name>
+    <Icon>./res/drawable/app_icon.png</Icon>
+    <Maximize>False</Maximize>
+    <Layout_Width>585</Layout_Width>
+    <Layout_Height>550</Layout_Height>
+    <x>10</x>
+    <y>10</y>
+    <Alignment>top-left</Alignment>
+    <Appearence_Mode>dark</Appearence_Mode>
+    <Color-Theme>blue</Color-Theme>
+    <Resizable-Width>False</Resizable-Width>
+    <Resizable-Height>False</Resizable-Height>
+</Config>

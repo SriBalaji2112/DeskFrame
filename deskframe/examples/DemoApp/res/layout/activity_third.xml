@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <GridRowConfigure
+        rows="(0, 1, 2)"
+        weight="5"/>
+    <GridColumnConfigure
+        column="1"
+        weight="1"/>
+    <Frame
+        layout_width="300px"
+        corner_radius="3px"
+        push="grid">
+        <Grid
+            row="0"
+            column="0"
+            rowspan="4"
+            sticky="nsew"
+            />
+        <GridRowConfigure
+            row="4"
+            weight="1"/>
+        <TextView
+            text="Third Activity"
+            font_size="20px"
+            font_weight="bold">
+            <Grid
+                row="0"
+                column="0"
+                padding_x="20px"
+                padding_y="(20px, 10px)"/>
+        </TextView>
+        <Button
+            id="main_activity"
+            text="Main Activity">
+            <Grid
+                row="1"
+                column="0"
+                padding_y="10px"
+                padding_x="20px"/>
+        </Button>
+        <Button
+            id="second_activity"
+            text="Second Activity">
+            <Grid
+                row="2"
+                column="0"
+                padding_y="10px"
+                padding_x="20px"/>
+        </Button>
+        <Button
+            state="false"
+            text="Disabled Button">
+            <Grid
+                row="3"
+                column="0"
+                padding_y="10px"
+                padding_x="20px"/>
+        </Button>
+        <TextView
+            text="Appearance Mode:"
+            anchor="w">
+            <Grid
+                row="5"
+                column="0"
+                padding_x="20px"
+                padding_y="(10px, 0px)"/>
+        </TextView>
+        <OptionMenu
+            values="(Light,Dark,System)"
+            set="Dark">
+            <Grid
+                row="6"
+                column="0"
+                padding_x="20px"
+                padding_y="(10px, 10px)"/>
+        </OptionMenu>
+        <TextView
+            text="UI Scaling"
+            anchor="w">
+            <Grid
+                row="7"
+                column="0"
+                padding_x="20px"
+                padding_y="(10px, 0px)"/>
+        </TextView>
+        <OptionMenu
+            values="(80%,90%,100%,110%,120%)"
+            set="100%">
+            <Grid
+                row="8"
+                column="0"
+                padding_x="20px"
+                padding_y="(10px, 20px)"/>
+        </OptionMenu>
+    </Frame>
+    <Entry
+        placeholder="CTkEntry">
+        <Grid
+            row="3"
+            column="1"
+            columnspan="2"
+            padding_x="(20px, 0px)"
+            padding_y="(20px, 20px)"
+            sticky="nsew"/>
+    </Entry>
+    <Button
+        foreground_color="transparent"
+        border_width="2px"
+        font_color="gray10">
+        <Grid
+            row="3"
+            column="3"
+            padding_x="(20px, 20px)"
+            padding_y="(20px, 20px)"
+            sticky="nsew"/>
+    </Button>
+    <TextArea
+        layout_width="250px">
+        <Grid
+            row="0"
+            column="1"
+            padding_x="(20px, 0px)"
+            padding_y="(20px, 0px)"
+            sticky="nsew"/>
+    </TextArea>
+    <TabView
+        layout_width="250px"
+        add_tabs="(CTkTabView,Tab2,Tab3)">
+        <Tab
+            tab_text="CTkTabView">
+            <OptionMenu
+                resizing="false"
+                values="(Value1,Value2,Value Long Long)"
+                set="CTkOptionMenu">
+                <Grid
+                    row="0"
+                    column="0"
+                    padding_x="20px"
+                    padding_y="(20px, 10px)"/>
+            </OptionMenu>
+            <ComboBox
+                values="(Value 1,Value2,Value Long......)"
+                set="CTkComboBox">
+                <Grid
+                    row="1"
+                    column="0"
+                    padding_x="20px"
+                    padding_y="(10px, 10px)"/>
+            </ComboBox>
+            <Button
+                text="Open CTkInputDialog">
+                <Grid
+                    row="2"
+                    column="0"
+                    padding_x="20px"
+                    padding_y="(10px, 10px)"/>
+            </Button>
+            <GridColumnConfigure
+                column="0"
+                weight="1"/>
+        </Tab>
+        <Tab
+            tab_text="Tab2">
+            <TextView
+                text="CTkLabel on Tab2">
+                <Grid
+                    row="0"
+                    column="0"
+                    padding_x="20px"
+                    padding_y="20px"/>
+            </TextView>
+            <GridColumnConfigure
+                column="0"
+                weight="1"/>
+        </Tab>
+        <Grid
+            row="0"
+            column="2"
+            padding_x="(20px, 0px)"
+            padding_y="(20px, 0px)"
+            sticky="nsew"/>
+    </TabView>
+    <Frame>
+        <Grid
+            row="0"
+            column="3"
+            padding_x="(20px, 20px)"
+            padding_y="(20px, 0px)"
+            sticky="nsew"/>
+        <TextView
+            text="CTkRadioButton Group:">
+            <Grid
+                row="0"
+                column="2"
+                columnspan="1"
+                padding_x="10px"
+                padding_y="10px"/>
+        </TextView>
+    </Frame>
+    <Frame
+        foreground_color="transparent">
+        <Grid
+            row="1"
+            column="1"
+            padding_x="(20px, 0px)"
+            padding_y="(20px, 0px)"
+            sticky="nsew"/>
+        <GridColumnConfigure
+            column="0"
+            weight="1"/>
+        <GridRowConfigure
+            row="4"
+            weight="1"/>
+        <SegmentedButton
+            values="(CTkSegmentedButton,Value 2,Value 3)"
+            set="Value 2">
+            <Grid
+                row="0"
+                column="0"
+                padding_x="(20px, 10px)"
+                padding_y="(10px, 10px)"
+                sticky="ew"/>
+        </SegmentedButton>
+        <ProgressBar>
+            <Grid
+                row="1"
+                column="0"
+                padding_x="(20px, 10px)"
+                padding_y="(10px, 10px)"
+                sticky="ew"/>
+        </ProgressBar>
+        <ProgressBar>
+            <Grid
+                row="2"
+                column="0"
+                padding_x="(20px, 10px)"
+                padding_y="(10px, 10px)"
+                sticky="ew"/>
+        </ProgressBar>
+        <Slider
+            from="0"
+            to="1"
+            number_of_steps="4">
+            <Grid
+                row="3"
+                column="0"
+                padding_x="(20px, 10px)"
+                padding_y="(10px, 10px)"
+                sticky="ew"/>
+        </Slider>
+<!--        <Slider-->
+<!--            from="0"-->
+<!--            to="1"-->
+<!--            number_of_steps="4">-->
+<!--            <Grid-->
+<!--                row="0"-->
+<!--                column="1"-->
+<!--                rowspan="5"-->
+<!--                padding_x="(10px, 10px)"-->
+<!--                padding_y="(10px, 10px)"-->
+<!--                sticky="ns"/>-->
+<!--        </Slider>-->
+        <ProgressBar
+            orientation="vertical">
+            <Grid
+                row="0"
+                column="2"
+                rowspan="5"
+                padding_x="(10px, 20px)"
+                padding_y="(10px, 10px)"
+                sticky="ns"/>
+        </ProgressBar>
+    </Frame>
+    <Frame>
+        <Grid
+            row="1"
+            column="3"
+            padding_x="(20px, 20px)"
+            padding_y="(20px, 0px)"
+            sticky="nsew"/>
+        <CheckBox>
+            <Grid
+                row="1"
+                column="0"
+                padding_y="(20px, 0px)"
+                padding_x="20px"
+                sticky="n"/>
+        </CheckBox>
+        <CheckBox>
+            <Grid
+                row="2"
+                column="0"
+                padding_y="(20px, 0px)"
+                padding_x="20px"
+                sticky="n"/>
+        </CheckBox>
+        <CheckBox
+            state="false"
+            check="">
+            <Grid
+                row="3"
+                column="0"
+                padding_y="20px"
+                padding_x="20px"
+                sticky="n"/>
+        </CheckBox>
+    </Frame>
+</Layout>

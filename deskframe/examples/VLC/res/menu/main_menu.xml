@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <Menu
+        layout_width="30px">
+        <MenuTitle
+            text="Media"
+            id="menu_bar"
+            seperate_window="false">
+
+        </MenuTitle>
+        <MenuTitle
+            text="Playback">
+            <SubTitle
+                text="Title"/>
+            <SubTitle
+                text="Chapter"/>
+            <Seperator/>
+            <SubTitle
+                text="Custom Bookmarks"/>
+            <Seperator/>
+            <SubTitle
+                text="Render"/>
+            <Seperator/>
+            <SubTitle
+                text="Speed"/>
+            <Seperator/>
+            <SubTitle text="Jump Forward"/>
+            <SubTitle text="Jump Backward"/>
+            <SubTitle text="Jump to Specific Time"/>
+            <Seperator/>
+            <SubTitle text="Play"/>
+            <SubTitle text="Stop"/>
+            <SubTitle text="Previous"/>
+            <SubTitle text="Next"/>
+            <SubTitle text="Record"/>
+
+        </MenuTitle>
+        <MenuTitle
+            text="Audio">
+            <SubTitle
+                text="Undo Typing.."/>
+            <SubTitle
+                text="Redo Typing.."/>
+            <Seperator/>
+            <SubTitle
+                text="Paste"/>
+            <SubTitle
+                text="Copy"/>
+            <SubTitle
+                text="Cut"/>
+            <Seperator></Seperator>
+            <SubTitle text="Exit"/>
+        </MenuTitle>
+        <MenuTitle
+            text="Video">
+            <SubTitle
+                text="Undo Typing.."/>
+            <SubTitle
+                text="Redo Typing.."/>
+            <Seperator/>
+            <SubTitle
+                text="Paste"/>
+            <SubTitle
+                text="Copy"/>
+            <SubTitle
+                text="Cut"/>
+            <Seperator></Seperator>
+            <SubTitle text="Exit"/>
+        </MenuTitle>
+        <MenuTitle
+            text="Subtitle">
+            <SubTitle
+                text="Undo Typing.."/>
+            <SubTitle
+                text="Redo Typing.."/>
+            <Seperator/>
+            <SubTitle
+                text="Paste"/>
+            <SubTitle
+                text="Copy"/>
+            <SubTitle
+                text="Cut"/>
+            <Seperator></Seperator>
+            <SubTitle text="Exit"/>
+        </MenuTitle>
+        <MenuTitle
+            text="Tools">
+            <SubTitle
+                text="Undo Typing.."/>
+            <SubTitle
+                text="Redo Typing.."/>
+            <Seperator/>
+            <SubTitle
+                text="Paste"/>
+            <SubTitle
+                text="Copy"/>
+            <SubTitle
+                text="Cut"/>
+            <Seperator></Seperator>
+            <SubTitle text="Exit"/>
+        </MenuTitle>
+        <MenuTitle
+            text="View">
+            <SubTitle
+                text="Undo Typing.."/>
+            <SubTitle
+                text="Redo Typing.."/>
+            <Seperator/>
+            <SubTitle
+                text="Paste"/>
+            <SubTitle
+                text="Copy"/>
+            <SubTitle
+                text="Cut"/>
+            <Seperator></Seperator>
+            <SubTitle text="Exit"/>
+        </MenuTitle>
+        <MenuTitle
+            text="Help">
+            <SubTitle
+                text="Undo Typing.."/>
+            <SubTitle
+                text="Redo Typing.."/>
+            <Seperator/>
+            <SubTitle
+                text="Paste"/>
+            <SubTitle
+                text="Copy"/>
+            <SubTitle
+                text="Cut"/>
+            <Seperator></Seperator>
+            <SubTitle text="Exit"/>
+        </MenuTitle>
+    </Menu>
+</Layout>

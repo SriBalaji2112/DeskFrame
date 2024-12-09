@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <TextView
+        text="Your Stars"
+        font="Arial"
+        font_weight="bold"
+        font_size="20px"
+        justify="left">
+        <Pack
+            anchor="w"
+            padding_y="(43px, 18px)"
+            padding_x="(56px, 0px)"/>
+    </TextView>
+    <Frame
+        foreground_color="transparent">
+        <Pack
+            padding_x="(54px, 0px)"
+            padding_y="(18px, 0px)"
+            anchor="nw"/>
+        <Frame
+            foreground_color="#70179A"
+            layout_width="132px"
+            layout_height="70px"
+            radius="8px">
+            <PackPropagate
+                flag="0"/>
+            <Pack
+                anchor="w"
+                side="left"
+                padding_x="(0px, 20px)"/>
+            <TextView
+                text="Quizzes Taken"
+                font="Arial"
+                font_weight="bold"
+                font_size="10px"
+                font_color="#F3D9FF">
+                <Pack
+                    anchor="nw"
+                    padding_x="(14px, 0px)"/>
+            </TextView>
+            <TextView
+                text="71"
+                justify="left"
+                font="Arial"
+                font_size="25px"
+                font_weight="Bold"
+                font_color="#F3D9FF">
+                <Pack
+                    anchor="nw"
+                    padding_x="(14px, 0px)"/>
+            </TextView>
+        </Frame>
+
+        <Frame
+            foreground_color="#146C63"
+            layout_width="132px"
+            layout_height="70px"
+            radius="8px">
+            <PackPropagate
+                flag="0"/>
+            <Pack
+                anchor="w"
+                side="left"
+                padding_x="(0px, 20px)"/>
+            <TextView
+                text="Correct Questions"
+                font="Arial"
+                font_color="#D5FFFB"
+                font_weight="Bold"
+                font_size="10px">
+                <Pack
+                    anchor="nw"
+                    padding_x="(14px, 0px)"/>
+            </TextView>
+            <TextView
+                text="23"
+                justify="left"
+                font="Arial"
+                font_color="#D5FFFB"
+                font_weight="Bold"
+                font_size="25px">
+                <Pack
+                    anchor="nw"
+                    padding_x="(14px, 0px)"/>
+            </TextView>
+        </Frame>
+
+        <Frame
+            foreground_color="#9A1717"
+            layout_width="132px"
+            layout_height="70px"
+            radius="8px">
+            <PackPropagate
+                flag="0"/>
+            <Pack
+                anchor="w"
+                side="left"
+                padding_x="(0px, 20px)"/>
+            <TextView
+                text="Highest Score"
+                font="Arial"
+                font_color="#FFCFCF"
+                font_weight="Bold"
+                font_size="10px">
+                <Pack
+                    anchor="nw"
+                    padding_x="(14px, 0px)"/>
+            </TextView>
+            <TextView
+                text="12"
+                justify="left"
+                font="Arial"
+                font_color="#FFCFCF"
+                font_weight="Bold"
+                font_size="25px">
+                <Pack
+                    anchor="nw"
+                    padding_x="(14px, 0px)"/>
+            </TextView>
+        </Frame>
+    </Frame>
+    <TextView
+        text="Take A Quiz"
+        font="Arial"
+        font_weight="Bold"
+        font_size="20px"
+        justify="left">
+        <Pack
+            anchor="nw"
+            side="top"
+            padding_x="(56px, 0px)"
+            padding_y="(41px, 0px)"/>
+    </TextView>
+    <Frame
+        foreground_color="transparent">
+        <Pack
+            padding_y="(21px, 0px)"
+            padding_x="(50px, 0px)"
+            anchor="nw"/>
+        <ImageView
+            img="movies-quiz-bg.png"
+            layout_width="234px"
+            layout_height="91px"
+            radius="8px">
+            <Grid
+                row="0"
+                column="0"
+                sticky="nw"/>
+        </ImageView>
+        <ImageView
+            img="sports-quiz-bg.png"
+            layout_height="91px"
+            layout_width="234px"
+            radius="8px">
+            <Grid
+                row="1"
+                column="0"
+                sticky="nw"
+                padding_y="(30px, 0px)"/>
+        </ImageView>
+        <ImageView
+            img="geography-quiz-bg.png"
+            layout_width="175px"
+            layout_height="210px"
+            radius="8px">
+            <Grid
+                row="0"
+                column="1"
+                rowspan="2"
+                sticky="nw"/>
+        </ImageView>
+    </Frame>
+</Layout>

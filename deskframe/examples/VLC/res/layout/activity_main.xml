@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <include
+        src="./menu/main_menu.xml"/>
+    <VideoView
+        id="video">
+        <Pack
+            fill="both"
+            expand="true"/>
+    </VideoView>
+    <Frame
+            id="bottom"
+        layout_height="100px">
+        <Pack
+            fill="x"
+            side="bottom"/>
+        <Frame
+                id="control"
+            foreground_color="transparent"
+            layout_height="10px">
+            <Pack
+                side="top"/>
+            <Button
+                    id="skip_minus"
+                text="-5"
+                    compound="bottom"
+                layout_width="10px"
+                    hover_color="gray80"
+                    font="arial"
+                    font_color="black"
+                foreground_color="gray90">
+                <Pack
+                    side="left"
+                    padding_y="(10px, 0px)"
+                    padding_x="(10px, 0px)"/>
+            </Button>
+            <Button
+                    id="prev_btn"
+                text=""
+                hover_color="gray80"
+                img="prev.png"
+                layout_width="5px"
+                foreground_color="gray90">
+                <Pack
+                    side="left"
+                    padding_y="(10px, 0px)"
+                    padding_x="(10px, 10px)"/>
+            </Button>
+            <Button
+                    id="play_btn"
+                img="play.png"
+                    text=""
+                    hover_color="gray80"
+                layout_width="5px">
+                <Pack
+                    side="left"
+                    padding_y="(10px, 0px)"/>
+            </Button>
+            <Button
+                    id="next_btn"
+                text=""
+                img="next.png"
+                hover_color="gray80"
+                layout_width="5px"
+                foreground_color="gray90">
+                <Pack
+                    side="left"
+                    padding_y="(10px, 0px)"
+                    padding_x="(10px, 0px)"/>
+            </Button>
+            <Button
+                    id="skip_plus"
+                text="+5"
+                layout_width="10px"
+                hover_color="gray80"
+                    font="arial"
+                    font_color="black"
+                foreground_color="gray90">
+                <Pack
+                    side="left"
+                    padding_y="(10px, 0px)"
+                    padding_x="(10px, 10px)"/>
+            </Button>
+        </Frame>
+        <Slider
+                id="volume_scale"
+            orientation="vertical"
+            from="0"
+            to="100"
+            layout_height="50px">
+            <Pack
+                    side="right"
+                padding_x="5px"
+                padding_y="(5px, 5px)"/>
+        </Slider>
+        <TextView
+                id="volume_info"
+            text="75%">
+            <Pack
+                side="right"/>
+        </TextView>
+        <Slider
+                id="progress_scale"
+            orientation="horizontal"
+            from="0"
+            to="100">
+            <Pack
+                    side="bottom"
+                fill="x"
+                padding_x="30px"
+                padding_y="(5px, 20px)"/>
+        </Slider>
+        <Frame
+            id="timeline"
+            layout_height="20px"
+            foreground_color="transparent"
+            >
+            <Pack
+                fill="x"
+                side="bottom"/>
+            <TextView
+                    id="start_time"
+                text="00:00:00">
+                <Pack
+                    side="left"
+                    padding_x="(35px, 0px)"/>
+            </TextView>
+            <TextView
+                    id="end_time"
+                text="00:00:00">
+                <Pack
+                    side="right"
+                    padding_x="(0px, 35px)"/>
+            </TextView>
+        </Frame>
+    </Frame>
+</Layout>

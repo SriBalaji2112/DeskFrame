@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+    <Application-Name>DeskFrame Application</Application-Name>
+    <Discription>This is DeskFrame application.</Discription>
+    <Version>v0.0.1</Version>
+    <Icon>email-icon.png</Icon>
+    <EXE-Name>demoapp</EXE-Name>
+    <Maximize>False</Maximize>
+    <Layout_Width>1200</Layout_Width>
+    <Layout_Height>720</Layout_Height>
+    <x>10</x>
+    <y>10</y>
+<!--    <&#45;&#45; <Alignment>center</Alignment> &ndash;&gt;-->
+    <Appearence_Mode>dark</Appearence_Mode>
+    <Color-Theme>blue</Color-Theme>
+    <Resizable-Width>True</Resizable-Width>
+    <Resizable-Height>True</Resizable-Height>
+    <WindowBar>True</WindowBar>
+    <BG-Transparent>False</BG-Transparent>
+    <Top-Most>False</Top-Most>
+    <Schedule>None</Schedule>
+</Config>

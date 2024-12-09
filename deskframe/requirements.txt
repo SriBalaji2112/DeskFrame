@@ -1,0 +1,13 @@
+colorama==0.4.6
+CTkListbox==1.4
+customtkinter==5.2.2
+Pillow==11.0.0
+plyer==2.1.0
+pyfiglet==1.0.2
+python_vlc==3.0.21203
+setuptools==75.2.0
+tkcalendar==1.6.1
+tkinter_webcam==1.0.9
+tktimepicker==2.0.2
+tkVideoPlayer==2.8
+yaspin==3.1.0

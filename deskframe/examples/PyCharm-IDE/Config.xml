@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+    <Application-Name>PyDesk2 Tkinter IDE</Application-Name>
+    <Discription>This is PyDesk2 Tkinter application IDE.</Discription>
+    <Version>v0.0.1</Version>
+    <Icon>google.png</Icon>
+    <EXE-Name>PyDesk2 IDE</EXE-Name>
+    <Maximize>False</Maximize>
+    <Layout_Width>1200</Layout_Width>
+    <Layout_Height>720</Layout_Height>
+    <x>10</x>
+    <y>10</y>
+<!--    <Alignment>center</Alignment>-->
+    <Appearence_Mode>dark</Appearence_Mode>
+    <Color-Theme>dark-blue</Color-Theme>
+    <Resizable-Width>True</Resizable-Width>
+    <Resizable-Height>True</Resizable-Height>
+    <WindowBar>True</WindowBar>
+    <BG-Transparent>False</BG-Transparent>
+    <Top-Most>False</Top-Most>
+    <Schedule>None</Schedule>
+</Config>

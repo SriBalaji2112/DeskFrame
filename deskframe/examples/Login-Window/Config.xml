@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+    <Application-Name>Demo App</Application-Name>
+    <Discription>This is Demo application.</Discription>
+    <Version>v0.0.1</Version>
+    <Icon>email-icon.png</Icon>
+    <EXE-Name>demoapp</EXE-Name>
+    <Maximize>False</Maximize>
+    <Layout_Width>600</Layout_Width>
+    <Layout_Height>480</Layout_Height>
+    <x>10</x>
+    <y>10</y>
+    <Alignment>top-left</Alignment>
+    <Appearence_Mode>dark</Appearence_Mode>
+    <Color-Theme>blue</Color-Theme>
+    <Resizable-Width>False</Resizable-Width>
+    <Resizable-Height>False</Resizable-Height>
+</Config>

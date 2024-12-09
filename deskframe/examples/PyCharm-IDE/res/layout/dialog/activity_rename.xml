@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog-Window
+    title="Hello">
+    <Button
+            text="Hello">
+            <Pack/>
+        </Button>
+</Dialog-Window>

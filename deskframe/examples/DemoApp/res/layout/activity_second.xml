@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout>
+    <TextView
+        text="Hello, Window2"
+        push="gird">
+        <Grid
+            row="1"
+            column="2"/>
+    </TextView>
+<!--    <Button-->
+<!--        id="button2">-->
+<!--        <Grid-->
+<!--            row="2"-->
+<!--            column="2"/>-->
+<!--    </Button>-->
+    <WebCam
+        width="20px"
+        height="30px"
+        index="1"
+        insert="gird"
+        row="1"
+        column="2">
+    </WebCam>
+</Layout>
